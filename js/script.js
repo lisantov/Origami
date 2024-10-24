@@ -1,4 +1,4 @@
-var folder = "../imgs/gallery/";
+var folder = "/imgs/gallery/";
 let galleryArray = [];
 
 for(let i = 0; i < 6; i++){
@@ -9,20 +9,11 @@ LoadGallery();
 
 function LoadGallery(){
     let i = 0;
-    try {
-        console.log("Trying local directory");
-        document.querySelectorAll(".grid-block").forEach(function(block) {
-            block.style.backgroundImage = "url(" + galleryArray[i] + ")";
-            i++;
-        });
-    } catch(err){
-        console.log("Failed. Trying Github directory");
-        i = 0;
-        document.querySelectorAll(".grid-block").forEach(function(block) {
-            block.style.backgroundImage = "url(lisantov.github.io/Origami/" + galleryArray[i].substring(3) + ")";
-            i++;
-        });
-    }
+    console.log("Loading gallery images");
+    document.querySelectorAll(".grid-block").forEach(function(block) {
+        block.style.backgroundImage = "url("+ "Origami" + galleryArray[i] + ")";
+        i++;
+    });
     console.log("Success.");
 }
 

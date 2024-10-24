@@ -88,6 +88,7 @@ header{
     margin: auto;
     margin-top: 25px;
     width: 80%;
+    background-color: antiquewhite;
 }
 
 .grid{
@@ -112,6 +113,13 @@ header{
     cursor: pointer;
     background-size: 115%;
     transition: 0.3s;
+}
+
+.gallery-more{
+    font-size: 16px;
+    font-weight: 300;
+    float: right;
+    margin-right: 100px;
 }
 
 
