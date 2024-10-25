@@ -1,5 +1,7 @@
-var folder = "/imgs/gallery/";
+var folder = "/Origami/imgs/gallery/";
 let galleryArray = [];
+let i = 0;
+let loadIterations = 0;
 
 for(let i = 0; i < 6; i++){
     galleryArray.push(folder + (i + 1) + "_cover.png");
@@ -8,10 +10,9 @@ for(let i = 0; i < 6; i++){
 LoadGallery();
 
 function LoadGallery(){
-    let i = 0;
     console.log("Loading gallery images");
     document.querySelectorAll(".grid-block").forEach(function(block) {
-        block.style.backgroundImage = "url("+ "Origami" + galleryArray[i] + ")";
+        block.style.backgroundImage = "url(" + galleryArray[i] + ")";
         i++;
     });
     console.log("Success.");
