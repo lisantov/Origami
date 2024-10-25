@@ -3,7 +3,7 @@ let galleryArray = [];
 let i = 0;
 let loadIterations = 0;
 
-for(let i = 0; i < 6; i++){
+for(let i = 0; i < 36; i++){
     galleryArray.push(folder + (i + 1) + "_cover.png");
 }
 

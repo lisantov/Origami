@@ -9,7 +9,6 @@
 }
 
 .wrap{
-    position: relative;
     width: 100%;
 }
 
@@ -67,7 +66,7 @@ header{
 }
 
 .gallery-wrap{
-    margin-top: 100px;
+    margin-top: 50px;
     width: 100%;
 }
 
@@ -184,7 +183,6 @@ header{
 
 .bubble-bg{
     position: absolute;
-    left: 0;
     bottom: 0px;
     width: 1178px;
     height: 1070px;
@@ -195,6 +193,7 @@ header{
 }
 
 .author{
+    position: relative;
     margin-top: 125px;
     width: 100%;
     text-align: center;
