@@ -1,4 +1,4 @@
-var folder = "Origami/imgs/gallery/";
+var folder = "/Origami/imgs/gallery/";
 let galleryArray = [];
 let count = 0;
 let grid = document.querySelector('.grid');
