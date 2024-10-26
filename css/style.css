@@ -24,6 +24,7 @@ header{
 }
 
 .nav-block{
+    position: relative;
     display: flex;
     margin: auto;
     width: 30%;
@@ -67,6 +68,41 @@ header{
     background-size: 100%;
     background-repeat: no-repeat;
     -webkit-user-drag: none;
+}
+
+.star{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-image: url(../imgs/elements/star.png);
+    transition: 0.3s;
+}
+.star:hover{
+    scale: 1.75;
+    transition: 0.3s;
+}
+
+.star1{
+    right: -300px;
+    top: 120px;
+}
+.star2{
+    left: -300px;
+    top: 100px;
+}
+.star3{
+    left: -200px;
+    top: 250px;
+}
+.star4{
+    left: 500px;
+    top: -30px;
+}.star5{
+    right: 550px;
+    bottom: 0;
+}.star6{
+    right: 450px;
+    bottom: 50px;
 }
 
 .gallery-wrap{

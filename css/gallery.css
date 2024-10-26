@@ -24,6 +24,7 @@ header{
 }
 
 .nav-block{
+    position: relative;
     display: flex;
     margin: auto;
     width: 30%;
@@ -69,6 +70,29 @@ header{
     100%{
         right: -100px;
     }
+}
+
+.star{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-image: url(../imgs/elements/star.png);
+    transition: 0.3s;
+}
+.star:hover{
+    scale: 1.75;
+    transition: 0.3s;
+}
+
+.star1{
+    left: 500px;
+    top: -30px;
+}.star2{
+    right: 550px;
+    bottom: 0;
+}.star3{
+    right: 450px;
+    bottom: 50px;
 }
 
 .top-arrow{
